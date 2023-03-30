@@ -1,0 +1,36 @@
+body{
+    background-image: url("../img/resim4.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 8px;
+}
+
+div{
+    width: 200px;
+    margin: 8px;
+}
+
+.aylar{
+    background-color: blueviolet;
+}
+
+.mevsimler{
+    background-color: yellow;
+}
+
+.gunler{
+    background-color: forestgreen;
+}
+li{
+    padding: 4px;
+}
