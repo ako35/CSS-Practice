@@ -2,8 +2,12 @@
     background-color: yellow;
 }
 
-.container p{
-    padding: 8px;
+.container > p{
+    padding: 8px 8px 0px 8px;
+}
+
+.container > p:last-child{
+    padding: 0px 8px 8px 8px;
 }
 
 .container + p{
@@ -16,5 +20,9 @@ h1{
     text-align: center;
     text-decoration: underline;
     color: blue;
+}
+
+div{
+    display: inline-block;
 }
 

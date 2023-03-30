@@ -1,0 +1,28 @@
+div{
+    display: inline-block;
+}
+
+ul{
+    background-color: red;
+    list-style-type: none;
+    margin: 8px;
+    padding-left: 0;
+}
+
+li{
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    display: inline-block;
+}
+
+a:hover{
+    color: white;
+    background-color: blue;
+}
