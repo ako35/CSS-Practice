@@ -1,0 +1,27 @@
+body{
+    background-color: aliceblue;
+}
+
+h1,h2,h3{
+    color: red;
+}
+
+h1{
+    background-color: blueviolet;
+    text-align: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.icdonanim + p span{
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}
+
+hr{
+    border-style: dotted;
+    border-width: 4px;
+    border-color: aqua;
+}
