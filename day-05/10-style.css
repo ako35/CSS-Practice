@@ -1,0 +1,36 @@
+:root{
+    --color1:rgb(104, 104, 251);
+    --color2:rgb(251, 102, 102);
+    --color3:rgb(241, 241, 103);
+    --color4:rgb(109, 250, 109);
+    --border: 4px solid rgb(96, 41, 41);
+}
+
+body{
+    background-color: var(--color1);
+    text-align: center;
+    margin: 0;
+}
+
+.container ~ div{
+    background-color: var(--color4);
+    border: var(--border);
+    margin: 10px 5px;
+}
+
+.container ul {
+    background-color: var(--color2);
+}
+
+.container ul li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.container ul li a{
+    text-decoration: none;
+}
+
+.container ul li a:hover{
+    color: var(--color3);
+}

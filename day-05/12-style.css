@@ -1,0 +1,36 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    text-align: center;
+    gap: 5px;
+}
+
+.menu div{
+    border: 5px solid #347AA1;
+}
+
+.menu div p{
+    padding: 5px;
+}
+
+.menu div img{
+    padding: 5px;
+}
+
+.menu div p:last-child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu div p:last-child a{
+    text-decoration: none;
+    background-color:#347AA1;
+    color: white;
+    padding: 5px;
+}
+
+.menu div p:last-child span{
+    background-color: aquamarine;
+}

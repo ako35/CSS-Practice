@@ -1,0 +1,25 @@
+.menu div{
+    width: 300px;
+    display: inline-block;
+    margin: 8px;
+    text-align: center;
+    border: 5px solid aqua;
+}
+
+.menu div p{
+    padding: 5px;
+}
+
+.menu div p a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.menu div span{
+    background-color: aquamarine;
+    padding: 5px;
+}
+
