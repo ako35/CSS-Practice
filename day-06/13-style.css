@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto Serif', serif;
+    padding: 4rem 2rem;
+}
+
+.ust-kisim{
+    background-color: rgba(87, 200, 179, 0.873);
+    padding: 2rem;
+}
+
+.ust-kisim ul{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    list-style-type: none;
+}
+
+.ust-kisim ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.ust-kisim ul li a:hover{
+    color: red;
+}
+
+.orta-kisim {
+    background-color: aliceblue;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.orta-kisim h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+}
+
+.icerik{
+    display: flex;
+    gap: 2rem;
+}
+
+.icerik div:last-child{
+    line-height: 1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.alt-kisim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 2rem;
+    background-color: rgba(87, 200, 179, 0.873);
+}
+
+.alt-kisim h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.alt-kisim div ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.alt-kisim div ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.alt-kisim ul li a:hover{
+    color: red;
+}

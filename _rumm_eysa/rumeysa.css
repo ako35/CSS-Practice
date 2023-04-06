@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto Serif', serif;
+    padding: 0;
+    margin: 0;
+}
+
+.baslik{
+    font-size: 10em;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    background-image: url("../img/11324327_1621774951443222_701220272_n.jpg");
+    background-size: cover;
+    background-repeat:repeat-x;
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

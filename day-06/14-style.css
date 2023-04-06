@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto Serif', serif;
+    padding: 0;
+    margin: 0;
+}
+
+.baslik{
+    font-size: 10em;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-50%);
+    margin: 0;
+    background-image: url("../img/seyahat1.jpeg");
+    background-size: cover;
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
