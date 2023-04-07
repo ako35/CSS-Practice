@@ -1,0 +1,44 @@
+:root{
+    --color1:#332C39;
+    --color2:#C92C6D;
+    --color3:#F0EEED;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+}
+
+.container{
+    text-align: center;
+}
+
+.container .cards{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .cards div{
+    width: 30%;
+    padding: 0.5rem;
+    border: 3px solid var(--color3);
+}
+
+.baslik{
+    position: relative;
+}
+
+.baslik span{
+    position: absolute;
+    font-size: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.1;
+    color: var(--color2);
+    font-weight: 700;
+}
