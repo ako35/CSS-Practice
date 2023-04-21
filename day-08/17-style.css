@@ -1,0 +1,250 @@
+:root{
+    --color1:rgb(31,31,31);
+    --color2:rgb(25,25,25);
+    --color3:rgb(188, 8, 8);
+    --color4:rgb(30, 30, 135);
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: white;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+}
+
+nav.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--color1);
+    width: 100%;
+}
+
+nav.menu ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav.menu ul li{
+    padding: 0 20px;
+}
+
+nav.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-1{
+    background-image: url("../img/showcase.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 div{
+    text-align: center;
+}
+
+.section-1 div h1{
+    font-size: 4rem;
+}
+
+.section-1 div h3{
+    font-size: 2rem;
+}
+
+.section-1 div p{
+    font-size: 1.3rem;
+    padding: 20px 40px;
+}
+
+.section-2{
+    background-color: var(--color2);
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-2 img{
+    width: 90%;
+    height: auto;
+}
+
+.section-2 button{
+    background-color: var(--color3);
+    color: white;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+.section-2 div h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.section-2 div h3{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.section-2 div p{
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    font-weight: 500;
+}
+
+.section-2 div button + p{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.section-3 {
+    color: var(--color2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 img{
+    width: 95%;
+}
+
+.section-3 div h3{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.section-3 div p{
+    padding: 20px 3%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.section-3 button{
+    background-color: var(--color4);
+    color: white;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+.section-4{
+    background-image: url("https://anthonys1760.github.io/myTunes-Landing-Page/img/section-bg.jpg");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-4 div h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section-4 div p{
+    padding: 40px;
+}
+
+.section-5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    color: var(--color2);
+}
+
+@media screen and (max-width:780px) {
+    .section-5{
+        flex-direction: column;
+    }
+}
+
+.section-5 img{
+    width: 100%;
+}
+
+.section-5 h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section-5 h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.section-5 p{
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.section-5 a{
+    text-decoration: none;
+    color: blue;
+}
+
+.section-5 div:first-child{
+    flex: 1;
+}
+
+.section-5 div:last-child{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > div:first-child{
+    background-color: var(--color2);
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    gap: 5px;
+}
+
+@media screen and (max-width:780px) {
+    footer > div:first-child{
+        display: none;
+    }
+}
+
+footer > div:last-child{
+    background-color: var(--color1);
+    text-align: center;
+}
+
+footer div ul{
+    list-style-type: none;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
